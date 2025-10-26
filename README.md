@@ -13,33 +13,33 @@ Instructors also needed to manage their schedules and see student performance. T
 
 ## Artifacts in This Repository
 
-- `BusinessRequirementsDocument.pdf`  
-  This document captures the business needs and requirements of the DriverPass system from the client’s perspective. It includes functional requirements (what the system must do) and nonfunctional requirements (security, reliability, performance, etc.).
+### BusinessRequirementsDocument.pdf  
+This document captures the business needs and requirements of the DriverPass system from the client’s perspective. It includes functional requirements (what the system must do) and nonfunctional requirements (security, reliability, performance, etc.).
 
-- `SystemDesignDocument.pdf`  
-  This document translates those requirements into a technical design. It includes system architecture details, UML diagrams (use case, activity, sequence, class), and descriptions of how different parts of the system should work together.
+### SystemDesignDocument.pdf  
+This document translates those requirements into a technical design. It includes system architecture details, UML diagrams (use case, activity, sequence, class), and descriptions of how different parts of the system should work together.
 
 Together, these documents show my ability to move from problem definition to a proposed solution.
 
 ---
 
- Reflection
+## Reflection
 
- Briefly summarize the DriverPass project. Who was the client? What type of system did they want you to design?
+### 1. Briefly summarize the DriverPass project. Who was the client? What type of system did they want you to design?
 DriverPass is a driving instruction and test-prep service that wants to help students pass their road test on the first try. They wanted a system that could combine lesson scheduling, learning content (like practice exams and study modules), and student progress tracking. The system also needed to support instructors so they could manage appointments and see how each student is doing.
 
- What did you do particularly well?
+### 2. What did you do particularly well?
 I did a good job translating stakeholder conversations into clear, structured requirements. I separated business goals (“help students pass on the first try”) from specific functional needs (“students can book a driving lesson with an instructor at an available time slot”). I also clearly documented different types of requirements, such as security, reliability, and usability, which shows awareness of real-world constraints. In the system design, I used diagrams to communicate how the system should behave, not just what it should do. That helps both technical and nontechnical audiences understand the plan.
 
- If you could choose one part of your work on these documents to revise, what would you pick? How would you improve it?
+### 3. If you could choose one part of your work on these documents to revise, what would you pick? How would you improve it?
 I would revise and expand the security and data protection section of the system design. I described roles (student, instructor, admin) and authentication, but I would go deeper on data privacy and recovery. For example, I would add more detail on how personal and scheduling data is protected in storage and in transit, and what the backup and recovery expectations are if the system fails. That level of detail is important for a production system.
 
- How did you interpret the user’s needs and implement them into your system design? Why is it so important to consider the user’s needs when designing?
+### 4. How did you interpret the user’s needs and implement them into your system design? Why is it so important to consider the user’s needs when designing?
 I focused on what the users were actually trying to accomplish. Students want convenient lesson booking, realistic practice tests, and a way to see “am I ready yet?” Instructors want an organized schedule and visibility into each student’s progress. I made sure those needs directly turned into features in the design: an online scheduling module, a progress tracking feature, and a training content library.
 
 It’s important to design around user needs because a system can be technically correct and still fail if it doesn’t solve the real pain points. Centering the user early reduces rework later and increases the chance the system will actually get used.
 
- How do you approach designing software? What techniques or strategies would you use in the future to analyze and design a system?
+### 5. How do you approach designing software? What techniques or strategies would you use in the future to analyze and design a system?
 My approach is:
 1. Gather requirements from the client and document them clearly.
 2. Separate functional requirements (what the system must do) from nonfunctional requirements (how it must perform).
@@ -49,7 +49,9 @@ My approach is:
 
 Going forward, I would keep using that structured flow because it creates traceability. You can point to any part of the design and say, “This exists because the client asked for X.” That traceability is important for communication with both stakeholders and developers.
 
+---
 
- Contact
+## Contact
+
 Shadab Chowdhury  
 CS 255 – System Analysis and Design
